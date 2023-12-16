@@ -1,10 +1,12 @@
 <?php
+
 require_once 'class/config.php';
 require_once 'class/database.php';
 require_once 'steamauth/steamauth.php';
 require_once 'class/utils.php';
 
-$db = new DataBase();
+$db = new Database();
+
 if (isset($_SESSION['steamid'])) {
 
 	include('steamauth/userInfo.php');

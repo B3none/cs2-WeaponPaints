@@ -10,4 +10,5 @@ if (empty($steamauth['apikey'])) {die("<div style='display: block; width: 100%; 
 if (empty($steamauth['domainname'])) {$steamauth['domainname'] = $_SERVER['SERVER_NAME'];}
 if (empty($steamauth['logoutpage'])) {$steamauth['logoutpage'] = $_SERVER['PHP_SELF'];}
 if (empty($steamauth['loginpage'])) {$steamauth['loginpage'] = $_SERVER['PHP_SELF'];}
-?>
+
+// Version 3.2

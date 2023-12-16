@@ -1,4 +1,5 @@
 <?php
+
 class UtilsClass
 {
     public static function skinsFromJson(): array
